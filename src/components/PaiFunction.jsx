@@ -1,5 +1,6 @@
 import React from 'react';
-import filhoFuncao from "./filhoFuncao";
+import FilhoFuncao from "./filhoFuncao";
+
 
 const PaiFunction = () => {
 
@@ -9,7 +10,8 @@ const PaiFunction = () => {
 
   return (
     <div>
-     <filhoFuncao onChildClick={handleChildClick} />
+     <FilhoFuncao onChildClick={handleChildClick} />
+     
     </div>
   );
 };

@@ -11,6 +11,8 @@ import PaiFunction from './components/PaiFunction'
 import Form from './components/Form'
 import RenderCondicional from './components/RenderCondicional'
 import LoginButton from './components/loginButton'
+import Warning from './components/Warning'
+import NumberList from './components/NumberList'
 
 function App() {
  
@@ -31,9 +33,11 @@ function App() {
      <RenderCondicional user="Adriano"/>
      <LoginButton loggedIn={true}/>
      <LoginButton loggedIn={false}/>
-    </>
+     <Warning Warning={true}/>
+     <NumberList numbers={[1,2,3,4]}/>
+     </>
     
-  )
+  );
 }
 
 export default App
